@@ -1,0 +1,30 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+@media screen and (width<=600px) {
+    header{
+        background-color: aqua;
+        padding: 20px;
+        width: 20vw;
+        height: 100vh;
+    }
+    nav{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+}
+@media screen and (width>600px){
+    header{
+        background-color: aquamarine;
+        padding: 10px;
+    }
+    nav{
+        display: flex;
+        justify-content: space-around;
+    }
+}
